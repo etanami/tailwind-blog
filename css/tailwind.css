@@ -1,3 +1,6 @@
+/* Lato & Sansita */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Sansita:ital,wght@0,400;0,800;1,700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
