@@ -10,8 +10,8 @@ module.exports = {
       colors: {
         pri: '#081F4D',
         sec: '#0083FF',
-        gen_text: '#3B4D71',
-        bg_text: '#D9E6FF',
+        gen: '#3B4D71',
+        our_bg: '#D9E6FF',
       },
     },
   },
