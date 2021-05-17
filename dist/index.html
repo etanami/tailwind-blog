@@ -9,8 +9,8 @@
   </head>
   <body class="font-body">
     <div class="container px-4 mx-auto max-w-5xl">
-      <div class="text-center py-14">
-        <h1 class="text-5xl font-bold font-title text-sec">
+      <div class="text-center py-10 sm:py-14">
+        <h1 class="text-3xl md:text-5xl font-bold font-title text-sec">
           Latest Blog <br />
           <span class="text-pri">Posts</span>
         </h1>
@@ -33,14 +33,26 @@
         />
       </div>
       <section class="main">
-        <div class="grid grid-cols-3 gap-y-16 gap-x-12">
+        <div
+          class="
+            grid grid-cols-1
+            md:grid-cols-2
+            lg:grid-cols-3
+            gap-y-8
+            sm:gap-y-12
+            lg:gap-y-16
+            gap-x-8
+            lg:gap-x-12
+          "
+        >
           <!-- FIRST ROW -->
-          <div class="col-span-3">
+          <div class="col-span-1 md:col-span-2 lg:col-span-3">
             <a
               href="#"
               class="
                 border border-gray-100
-                flex
+                block
+                md:flex
                 rounded-3xl
                 overflow-hidden
                 hover:shadow-lg
@@ -48,17 +60,19 @@
                 duration-300
               "
             >
-              <div class="w-1/2">
+              <div class="md:w-1/2">
                 <img src="img/img1.jpg" alt="" class="" />
               </div>
-              <div class="w-1/2 p-7">
+              <div class="md:w-1/2 p-4 md:p-7">
                 <p class="px-3 py-1 bg-our_bg rounded text-sec text-xs inline">
                   FEATURED
                 </p>
                 <h2
                   class="
                     font-bold font-title
-                    text-xl text-sec
+                    text-xl
+                    md:text-2xl
+                    text-sec
                     py-5
                     hover:text-pri
                     transition
@@ -171,9 +185,9 @@
           </div>
 
           <!-- THIRD ROW -->
-          <div class="blog-card col-span-2">
+          <div class="blog-card col-span-1 lg:col-span-2">
             <a href="#">
-              <img src="img/img5.jpg" alt="" class="h-80 w-full" />
+              <img src="img/img5.jpg" alt="" class="lg:h-72 w-full" />
               <div class="px-4 pb-6">
                 <h2 class="post-title">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -228,8 +242,8 @@
 
       <!-- SUBSCRIBE SECTION -->
       <section class="subscribe">
-        <div class="text-center mx-auto py-32">
-          <h6 class="text-5xl font-bold font-title text-pr">
+        <div class="text-center mx-auto py-12 sm:py-20 lg:py-32">
+          <h6 class="text-3xl md:text-5xl font-bold font-title text-pr">
             Subscribe to Our <br />
             <span class="text-sec">Blog</span>
           </h6>
@@ -254,7 +268,9 @@
             type="submit"
             value="SUBMIT"
             class="
-              -ml-12
+              sm:-ml-9
+              mt-3f
+              sm:mt-0
               px-8
               py-2
               rounded-3xl
@@ -272,11 +288,12 @@
     <footer class="bg-pri">
       <div
         class="
-          flex
-          text-white
+          sm:flex
+          text-center text-white
+          px-12
           py-8
           font-title font-bold
-          tracking-wider
+          sm:tracking-wider
           justify-between
           max-w-5xl
           mx-auto
