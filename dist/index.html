@@ -9,32 +9,9 @@
   </head>
   <body class="font-body">
     <div class="bg-white shadow-md">
-      <header
-        class="
-          container
-          mx-auto
-          p-6
-          max-w-7xl
-          flex flex-wrap
-          items-center
-          justify-between
-        "
-      >
-        <div
-          class="
-            flex
-            items-center
-            text-sec
-            hover:text-pri
-            cursor:pointer
-            transition
-          "
-        >
-          <svg
-            class="fill-current h-8 w-8 mr-2"
-            viewBox="0 0 54 54"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+      <header class="container mx-auto p-6 max-w-7xl flex flex-wrap items-center justify-between">
+        <div class="flex items-center text-sec hover:text-pri cursor:pointer transition">
+          <svg class="fill-current h-8 w-8 mr-2" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"
             />
@@ -42,18 +19,7 @@
           <span class="font-semibold text-xl font-title">TailwindNews</span>
         </div>
         <div class="md:hidden block">
-          <button
-            id="menu-open"
-            class="
-              px-2
-              py-1
-              rounded
-              bg-sec
-              text-white
-              hover:bg-purple-900
-              transition
-            "
-          >
+          <button id="menu-open" class="px-2 py-1 rounded bg-sec text-white hover:bg-purple-900 transition">
             <svg
               class="w-6 h-6"
               fill="none"
@@ -61,27 +27,10 @@
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16M4 18h16"
-              ></path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
             </svg>
           </button>
-          <button
-            id="menu-close"
-            class="
-              hidden
-              px-2
-              py-1
-              rounded
-              bg-sec
-              text-white
-              hover:bg-purple-900
-              transition
-            "
-          >
+          <button id="menu-close" class="hidden px-2 py-1 rounded bg-sec text-white hover:bg-purple-900 transition">
             <svg
               class="w-6 h-6"
               fill="none"
@@ -89,19 +38,11 @@
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M6 18L18 6M6 6l12 12"
-              ></path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
             </svg>
           </button>
         </div>
-        <nav
-          id="menu-items"
-          class="hidden md:flex md:items-center font-title w-full md:w-auto"
-        >
+        <nav id="menu-items" class="hidden md:flex md:items-center font-title w-full md:w-auto">
           <ul class="text-lg">
             <li class="my-3 md:mb-0 block md:inline-block items-center mr-4">
               <a href="#" class="text-pri hover:text-sec transition">Home</a>
@@ -113,9 +54,7 @@
               <a href="#" class="text-pri hover:text-sec transition">Contact</a>
             </li>
             <li class="mb-3 md:mb-0 block md:inline-block items-center mr-4">
-              <a href="#" class="text-pri hover:text-sec transition"
-                >Products & Shop</a
-              >
+              <a href="#" class="text-pri hover:text-sec transition">Products & Shop</a>
             </li>
           </ul>
         </nav>
@@ -132,32 +71,12 @@
         </p>
         <input
           type="search"
-          class="
-            bg-our_bg
-            px-8
-            py-2
-            rounded-3xl
-            shadow-inner
-            ring-sec
-            focus:outline-none
-            focus:ring-1
-          "
+          class="bg-our_bg px-8 py-2 rounded-3xl shadow-inner ring-sec focus:outline-none focus:ring-1"
           placeholder="Search.."
         />
       </div>
       <section class="main">
-        <div
-          class="
-            grid grid-cols-1
-            md:grid-cols-2
-            lg:grid-cols-3
-            gap-y-8
-            sm:gap-y-12
-            lg:gap-y-16
-            gap-x-8
-            lg:gap-x-12
-          "
-        >
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 sm:gap-y-12 lg:gap-y-16 gap-x-8 lg:gap-x-12">
           <!-- FIRST ROW -->
           <div class="col-span-1 md:col-span-2 lg:col-span-3">
             <a
@@ -177,37 +96,19 @@
                 <img src="img/img1.jpg" alt="" class="" />
               </div>
               <div class="md:w-1/2 p-4 md:p-7">
-                <p class="px-3 py-1 bg-our_bg rounded text-sec text-xs inline">
-                  FEATURED
-                </p>
+                <p class="px-3 py-1 bg-our_bg rounded text-sec text-xs inline">FEATURED</p>
                 <h2
-                  class="
-                    font-bold font-title
-                    text-xl
-                    md:text-2xl
-                    text-sec
-                    py-5
-                    hover:text-pri
-                    transition
-                    duration-300
-                  "
+                  class="font-bold font-title text-xl md:text-2xl text-sec py-5 hover:text-pri transition duration-300"
                 >
-                  Why is it important to follow a Brand Style Guide for your
-                  business?
+                  Why is it important to follow a Brand Style Guide for your business?
                 </h2>
                 <p class="text-gen pb-7">
-                  A brand style guide is also known as a brand guide or brand
-                  book. For many companies, the guide is essential to maintain
-                  their brand identity. For them, such a well-thought-of guide
-                  becomes their key document, which serves as a guide to create
-                  a variety of content for brand marketing.
+                  A brand style guide is also known as a brand guide or brand book. For many companies, the guide is
+                  essential to maintain their brand identity. For them, such a well-thought-of guide becomes their key
+                  document, which serves as a guide to create a variety of content for brand marketing.
                 </p>
                 <div class="flex items-center">
-                  <img
-                    src="img/author1.jpg"
-                    alt=""
-                    class="w-9 h-9 rounded-full"
-                  />
+                  <img src="img/author1.jpg" alt="" class="w-9 h-9 rounded-full" />
                   <div class="pl-3">
                     <h6 class="text-xs text-pri font-bold">John Doe</h6>
                     <p class="text-xs text-gen">Brand Specialist</p>
@@ -222,20 +123,13 @@
             <a href="#">
               <img src="img/img2.jpg" alt="" />
               <div class="px-4 pb-6">
-                <h2 class="post-title">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </h2>
+                <h2 class="post-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
                 <p class="text-gen pb-5">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Praesentium temporibus rerum odit voluptas sint aspernatur rem
-                  ipsam ea eos nisi.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium temporibus rerum odit voluptas
+                  sint aspernatur rem ipsam ea eos nisi.
                 </p>
                 <div class="flex items-center">
-                  <img
-                    src="img/author1.jpg"
-                    alt=""
-                    class="w-9 h-9 rounded-full"
-                  />
+                  <img src="img/author1.jpg" alt="" class="w-9 h-9 rounded-full" />
                   <div class="pl-3">
                     <h6 class="text-xs text-pri font-bold">John Doe</h6>
                     <p class="text-xs text-gen">Brand Specialist</p>
@@ -248,20 +142,13 @@
             <a href="#">
               <img src="img/img3.jpg" alt="" />
               <div class="px-4 pb-6">
-                <h2 class="post-title">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                </h2>
+                <h2 class="post-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h2>
                 <p class="text-gen pb-5">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Praesentium temporibus rerum odit voluptas sint aspernatur rem
-                  ipsam ea eos nisi.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium temporibus rerum odit voluptas
+                  sint aspernatur rem ipsam ea eos nisi.
                 </p>
                 <div class="flex items-center">
-                  <img
-                    src="img/author2.jpg"
-                    alt=""
-                    class="w-9 h-9 rounded-full"
-                  />
+                  <img src="img/author2.jpg" alt="" class="w-9 h-9 rounded-full" />
                   <div class="pl-3">
                     <h6 class="text-xs text-pri font-bold">John Doe</h6>
                     <p class="text-xs text-gen">Brand Specialist</p>
@@ -274,20 +161,13 @@
             <a href="#">
               <img src="img/img4.jpg" alt="" />
               <div class="px-4 pb-6">
-                <h2 class="post-title">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                </h2>
+                <h2 class="post-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h2>
                 <p class="text-gen pb-5">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Praesentium temporibus rerum odit voluptas sint aspernatur rem
-                  ipsam ea eos nisi.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium temporibus rerum odit voluptas
+                  sint aspernatur rem ipsam ea eos nisi.
                 </p>
                 <div class="flex items-center">
-                  <img
-                    src="img/author1.jpg"
-                    alt=""
-                    class="w-9 h-9 rounded-full"
-                  />
+                  <img src="img/author1.jpg" alt="" class="w-9 h-9 rounded-full" />
                   <div class="pl-3">
                     <h6 class="text-xs text-pri font-bold">John Doe</h6>
                     <p class="text-xs text-gen">Brand Specialist</p>
@@ -302,20 +182,13 @@
             <a href="#">
               <img src="img/img5.jpg" alt="" class="lg:h-72 w-full" />
               <div class="px-4 pb-6">
-                <h2 class="post-title">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </h2>
+                <h2 class="post-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
                 <p class="text-gen pb-5">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Praesentium temporibus rerum odit voluptas sint aspernatur rem
-                  ipsam ea eos nisi.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium temporibus rerum odit voluptas
+                  sint aspernatur rem ipsam ea eos nisi.
                 </p>
                 <div class="flex items-center">
-                  <img
-                    src="img/author1.jpg"
-                    alt=""
-                    class="w-9 h-9 rounded-full"
-                  />
+                  <img src="img/author1.jpg" alt="" class="w-9 h-9 rounded-full" />
                   <div class="pl-3">
                     <h6 class="text-xs text-pri font-bold">John Doe</h6>
                     <p class="text-xs text-gen">Brand Specialist</p>
@@ -328,20 +201,13 @@
             <a href="#">
               <img src="img/img6.jpg" alt="" />
               <div class="px-4 pb-6">
-                <h2 class="post-title">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </h2>
+                <h2 class="post-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
                 <p class="text-gen pb-5">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Praesentium temporibus rerum odit voluptas sint aspernatur rem
-                  ipsam ea eos nisi.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium temporibus rerum odit voluptas
+                  sint aspernatur rem ipsam ea eos nisi.
                 </p>
                 <div class="flex items-center">
-                  <img
-                    src="img/author1.jpg"
-                    alt=""
-                    class="w-9 h-9 rounded-full"
-                  />
+                  <img src="img/author1.jpg" alt="" class="w-9 h-9 rounded-full" />
                   <div class="pl-3">
                     <h6 class="text-xs text-pri font-bold">John Doe</h6>
                     <p class="text-xs text-gen">Brand Specialist</p>
@@ -361,37 +227,17 @@
             <span class="text-sec">Blog</span>
           </h6>
           <p class="max-w-xs mx-auto text-pri py-6">
-            Please subscribe to get regular updates and featured news through
-            your email!
+            Please subscribe to get regular updates and featured news through your email!
           </p>
           <input
             type="email"
             placeholder="Email Address"
-            class="
-              px-8
-              py-2
-              bg-our_bg
-              rounded-3xl
-              text-gen
-              shadow-inner
-              focus:outline-none
-            "
+            class="px-8 py-2 bg-our_bg rounded-3xl text-gen shadow-inner focus:outline-none"
           />
           <input
             type="submit"
             value="SUBMIT"
-            class="
-              sm:-ml-9
-              mt-3f
-              sm:mt-0
-              px-8
-              py-2
-              rounded-3xl
-              bg-sec
-              text-white
-              hover:bg-blue-700
-              focus:ring-1
-            "
+            class="sm:-ml-9 mt-3f sm:mt-0 px-8 py-2 rounded-3xl bg-sec text-white hover:bg-blue-700 focus:ring-1"
           />
         </div>
       </section>
